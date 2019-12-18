@@ -19,22 +19,19 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li {% if page.url == "/"%}class="active"{% endif %}>
-            <a href="/">Home</a>
+            <a href="./">Home</a>
           </li>
           <li {% if page.url == "/programs.html" %}class="active"{% endif %}>
-            <a href="/programs.html">Academic Programs</a>
+            <a href="./programs.html">Academic Programs</a>
           </li>
           <li {% if page.url == "/club.html" %}class="active"{% endif %}>
-            <a href="/club.html">Data Science Club</a>
+            <a href="./club.html">Data Science Club</a>
           </li>        	  
           <li {% if page.url == "/dataday/" %}class="active"{% endif %}>
-            <a href="/dataday">Data Science Day</a>
+            <a href="./dataday">Data Science Day</a>
           </li>
           <li {% if page.url == "/calendar.html" %}class="active"{% endif %}>
-            <a href="/calendar.html">Data Science Seminar</a>
-          </li>
-          <li {% if page.url == "/calendar.html" %}class="active"{% endif %}>
-            <a href="{{site.baseurl}}/calendar.html">Data Science Seminar</a>
+            <a href="./calendar.html">Data Science Seminar</a>
           </li>
         </ul>
       </div>
